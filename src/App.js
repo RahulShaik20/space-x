@@ -1,9 +1,11 @@
 import React from 'react';
+import './styles.css';
+import { Header } from './Components/headers/Headers';
 
 function App() {
   return (
     <div className="App">
-      <h1>Space-x</h1>
+      <Header/>
     </div>
   );
 }
