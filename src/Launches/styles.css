@@ -1,0 +1,38 @@
+.launch{
+    background-color: white;
+    height: 150px;
+    width: 800px;
+    margin: 50px;
+    display: flex;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+.launch img{
+    height: 150px;
+    width: 100px;
+    margin-right: 20px;
+}
+.content{
+    width: 100%;
+}
+.content .info{
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        color: cadetblue;
+        
+}
+.launch.content .info  h1{
+    font-size: 40px;
+    
+}
+.content p{
+    font-size: 20px;
+    margin-top: 20px;
+    color: grey;
+    display: -webkit-box;
+    line-height:20px ;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
